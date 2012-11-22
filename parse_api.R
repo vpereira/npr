@@ -34,7 +34,7 @@ upstream <- c()
 timespace <- c()
 cpu <- c()
 
-for(a in 1:5) {
+for(a in 1:30) {
   json = getStates()
   timespace  <- union(timespace,getTime())
   upstream   <- union(upstream,getUpstream(json))
