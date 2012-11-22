@@ -1,4 +1,5 @@
-.h1 Next Generation Green HyperMedia API Client - BUY NOW
+Next Generation Green HyperMedia API Client - BUY NOW
+=====================================================
 
 some R packages are necessary. 
 
