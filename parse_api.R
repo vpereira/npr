@@ -29,7 +29,8 @@ getUpstream <- function(json) {
 downstream <- c()
 upstream <- c()
 timespace <- c()
-for(a in 1:10) {
+
+for(a in 1:30) {
   json = getStates()
   timespace  <- union(timespace,getTime())
   upstream   <- union(upstream,getUpstream(json))
